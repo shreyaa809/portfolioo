@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHREYA — The Chronicle</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-nib" id="cursorNib">
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3 21l7-3L19 9l-5-5L5 13l-2 8z" fill="#1a1a1a"/>
+    <path d="M14 4l5 5" stroke="#8b1a1a" stroke-width="1.5"/>
+  </svg>
+</div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- TICKER -->
+<div class="ticker-wrap" id="ticker" title="Click to view project story">
+  <span class="ticker-label">✦ Breaking</span>
+  <div class="ticker-track">
+    <span class="ticker-text" id="tickerText">
+      Exclusive Dispatch: The Latest Creations of Shreya Shukla Unveiled &nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;
+      Second Edition: SignSOS API Goes Live on GitHub &nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;
+      IoT Engineer & Web Developer — VIT Vellore Class of 2028 &nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;
+      Exclusive Dispatch: The Latest Creations of Shreya Shukla Unveiled &nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;
+      Second Edition: SignSOS API Goes Live on GitHub &nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;
+      IoT Engineer & Web Developer — VIT Vellore Class of 2028 &nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;
+    </span>
+  </div>
+</div>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-top">
+    <span>Vol. II — No. 24</span>
+    <span class="edition-tag">The Builder's Chronicle</span>
+    <span>VIT Vellore, 2024</span>
+  </div>
+</header>
+
+<!-- MAIN HEADLINE -->
+<section class="headline-section">
+  <h1 class="main-title reveal-on-scroll">SHREYA</h1>
+  <div class="about-overlay">
+    <p>A second-year Computer Science student at VIT Vellore specialising in IoT, Shreya Shukla is a developer driven by curiosity and creativity. She began coding in the 6th grade, fascinated by how machines think and systems work. From building smart IoT solutions to participating in hackathons, her journey blends logic with imagination. With experience in web development, AI/ML, and problem-solving, she focuses on creating impactful and meaningful technology.</p>
+  </div>
+</section>
+
+<!-- SUBHEADLINE ROW -->
+<div class="sub-headline-row">
+  <span>Computer Science · IoT</span>
+  <span>Web Development</span>
+  <span>AI / ML</span>
+  <span>Hackathons & Innovation</span>
+</div>
+
+<!-- NEWSPAPER BODY -->
+<main class="newspaper-body">
+
+  <!-- ROW 1: Three Columns -->
+  <div class="row-three">
+    <div class="col reveal-on-scroll">
+      <div class="col-section-label">Portrait</div>
+      <div class="img-placeholder">
+        <span class="img-placeholder-text single-img">
+          <img src="img_shreya_formal.jpeg" alt="photograph">
+        </span>
+      </div>
+      <p class="img-caption">Shreya Shukla — Computer Science, VIT Vellore</p>
+      <hr class="rule-thin">
+      <p class="col-body">Coding since the 6th grade. Powered by curiosity, IoT, and strong coffee.</p>
+    </div>
+    <div class="col-divider"></div>
+    <div class="col reveal-on-scroll" style="--reveal-delay:0.1s">
+      <div class="col-section-label">Feature</div>
+      <h2 class="col-headline large">From Circuits to Code: A Builder's Story</h2>
+      <hr class="rule-thin">
+      <p class="col-body">In the bustling corridors of VIT Vellore's School of Computing, one second-year student has quietly been rewriting the rules of what it means to be a developer. Shreya Shukla, specialising in the Internet of Things, approaches every problem with the methodical curiosity of an engineer and the restless imagination of an artist.</p>
+      <p class="col-body">Her journey with code began not in a university lecture hall but at a school desk in sixth grade, when she first wondered why machines behaved the way they did — and what it would take to make them behave differently.</p>
+      <div class="pull-quote">"Logic is the skeleton. Imagination is what makes it breathe."<cite>— Shreya Shukla</cite></div>
+      <p class="col-body">Today, that early fascination has matured into a broad technical portfolio spanning web development, AI and machine learning pipelines, and smart IoT architectures.</p>
+    </div>
+    <div class="col-divider"></div>
+    <div class="col reveal-on-scroll" style="--reveal-delay:0.2s">
+      <div class="col-section-label">Dispatch</div>
+      <h3 class="col-headline">Hackathon Dispatches</h3>
+      <hr class="rule-thin">
+      <p class="col-body">Multiple competitive events attended. Each one a crash course in rapid prototyping and elegant problem decomposition under extreme pressure.</p>
+      <hr class="rule-thin">
+      <div class="col-section-label" style="margin-top:12px">Currently Pursuing</div>
+      <h3 class="col-headline">B.Tech CSE — IoT Specialisation</h3>
+      <p class="col-body" style="font-size:12px">Vellore Institute of Technology · 2nd Year<br>Expected Graduation: 2027</p>
+      <hr class="rule-thin">
+      <div class="col-section-label" style="margin-top:12px">Domains</div>
+      <p class="col-body" style="font-size:12px; line-height:2">
+        ✦ Internet of Things<br>✦ Web Development<br>✦ Artificial Intelligence<br>✦ Machine Learning
+      </p>
+    </div>
+  </div>
+
+  <!-- ROW 2: Image + Projects -->
+  <div class="row-two">
+    <div class="col reveal-on-scroll">
+      <div class="col-section-label">Visual Chronicle</div>
+      <div class="img-placeholder" style="aspect-ratio:16/9">
+        <span class="img-placeholder-text collage-grid">
+          <img src="img1.jpeg" alt="description">
+          <img src="img2.jpeg" alt="description">
+          <img src="img3.jpeg" alt="description">
+          <img src="img4.jpeg" alt="description">
+        </span>
+      </div>
+      <p class="img-caption">The workshop — where ideas become systems</p>
+      <hr class="rule-thin">
+      <p class="col-body">Smart sensors, neural nets, and web interfaces: the trifecta of a modern builder.</p>
+    </div>
+    <div class="col-divider"></div>
+    <div class="col reveal-on-scroll" style="--reveal-delay:0.15s">
+      <div class="col-section-label">Selected Works</div>
+      <h2 class="col-headline">Projects & Endeavours</h2>
+      <hr class="rule-thin">
+      <p class="col-body">Each project in Shreya's portfolio represents a distinct chapter — a new constraint, a new domain, a new set of questions she refused to leave unanswered.</p>
+      <hr class="rule-thin">
+      <h3 class="col-headline" style="font-size:15px;margin-top:12px">IoT Smart Solutions</h3>
+      <p class="col-body">Sensor networks, embedded logic, and real-time dashboards bridging the physical and digital worlds.</p>
+      <hr class="rule-thin">
+      <h3 class="col-headline" style="font-size:15px;margin-top:8px">Web Development</h3>
+      <p class="col-body">Full-stack interfaces and interactive experiences, built with an eye for both performance and aesthetic integrity.</p>
+      <hr class="rule-thin">
+      <h3 class="col-headline" style="font-size:15px;margin-top:8px">AI & ML Explorations</h3>
+      <p class="col-body">From classification pipelines to intelligent automation — applied machine learning in service of human-centred problems.</p>
+    </div>
+  </div>
+
+  <!-- ROW 3: Skills -->
+  <div class="row-skills reveal-on-scroll">
+    <div class="skill-cell">
+      <div class="col-section-label">Language</div>
+      <div class="skill-name">Python</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--fill:90%;--delay:0.1s"></div></div>
+      <div class="skill-desc">Data pipelines, AI/ML, scripting & automation</div>
+    </div>
+    <div class="skill-cell">
+      <div class="col-section-label">Discipline</div>
+      <div class="skill-name">IoT Systems</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--fill:85%;--delay:0.3s"></div></div>
+      <div class="skill-desc">Embedded hardware, sensor networks, real-time data</div>
+    </div>
+    <div class="skill-cell">
+      <div class="col-section-label">Stack</div>
+      <div class="skill-name">Web Dev</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--fill:80%;--delay:0.5s"></div></div>
+      <div class="skill-desc">HTML, CSS, JavaScript & modern frameworks</div>
+    </div>
+    <div class="skill-cell">
+      <div class="col-section-label">Domain</div>
+      <div class="skill-name">AI / ML</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--fill:75%;--delay:0.7s"></div></div>
+      <div class="skill-desc">Model training, classification, intelligent systems</div>
+    </div>
+  </div>
+
+</main>
+
+<hr class="footer-rule">
+<footer class="footer">
+  <span>© The Shreya Chronicle — All Dispatches Reserved</span>
+  <span>✦</span>
+  <span>Hover the masthead title to learn more</span>
+</footer>
+
+<!-- ═══════════════════════════════════════════
+     FLOATING CIRCLES NAVIGATION
+═══════════════════════════════════════════ -->
+<div class="circles-nav" id="circlesNav">
+  <div class="circles-nav-label">Navigate</div>
+  <div class="nav-circle" data-section="about" style="--c:#8b1a1a">
+    <span class="circle-icon">✍</span>
+    <span class="circle-label">About Me</span>
+  </div>
+  <div class="nav-circle" data-section="achievements" style="--c:#1a4a8b">
+    <span class="circle-icon">✦</span>
+    <span class="circle-label">Achievements</span>
+  </div>
+  <div class="nav-circle" data-section="education" style="--c:#1a6b3a">
+    <span class="circle-icon">🎓</span>
+    <span class="circle-label">Education</span>
+  </div>
+  <div class="nav-circle" data-section="projects" style="--c:#6b4a1a">
+    <span class="circle-icon">⚙</span>
+    <span class="circle-label">Projects</span>
+  </div>
+  <div class="nav-circle" data-section="profiles" style="--c:#4a1a6b">
+    <span class="circle-icon">◈</span>
+    <span class="circle-label">Profiles</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     SECTION POPUP MODAL
+═══════════════════════════════════════════ -->
+<div class="section-modal" id="sectionModal">
+  <div class="section-modal-inner">
+    <button class="modal-close" id="modalClose">✕ Close</button>
+    <div class="modal-content" id="modalContent"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     PROJECT STORY MODE (CINEMATIC) — DAY 6
+═══════════════════════════════════════════ -->
+<div class="story-overlay" id="storyOverlay">
+  <div class="story-inner">
+
+    <button class="story-close" id="storyClose">✕ Close Dispatch</button>
+
+    <!-- Cinematic header -->
+    <div class="story-header">
+      <div class="story-eyebrow">✦ Project Story Mode ✦</div>
+      <h2 class="story-title" id="storyTitle"></h2>
+      <div class="story-meta" id="storyMeta"></div>
+    </div>
+
+    <!-- Typewriter area -->
+    <div class="story-typewriter-wrap">
+      <p class="story-typewriter" id="storyTypewriter"></p>
+      <span class="typewriter-cursor">|</span>
+    </div>
+
+    <!-- Flowchart -->
+    <div class="story-flowchart" id="storyFlowchart"></div>
+
+    <!-- GitHub button -->
+    <div class="story-actions" id="storyActions"></div>
+
+  </div>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
