@@ -79,7 +79,7 @@ document.querySelectorAll('.proj-card, .edu-item, .exp-row, .stat-item').forEach
 
 // ─── LEETCODE LIVE STATS ────────────────────────────────────────────────────
 async function fetchLeetCodeStats() {
-  const username = 'CODER284';
+  const username = 'shreya2203';
   const statusEl = document.getElementById('lc-status');
 
   // Try multiple public APIs in order
